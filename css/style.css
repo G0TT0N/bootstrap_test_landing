@@ -319,7 +319,7 @@ div[filter]:hover .text {
 
 .team img {
    margin: 0 auto;
-   max-width: 340px;
+   max-width: 300px;
 }
 
 .multiple-items {
@@ -520,6 +520,13 @@ div[filter]:hover .text {
    display: none;
 }
 
+@media screen and (max-width: 1200px) {
+   .form__name-input{
+      margin-bottom: 30px;
+   }
+}
+
+
 @media screen and (max-width: 1024px) {
    nav {
       display: none;
@@ -546,3 +553,14 @@ div[filter]:hover .text {
       margin-bottom: 20px;
    }
 }
+
+@media screen and (max-width: 768px) {
+   .team img {
+      max-width: 200px;
+   }
+
+   .fa-2x {
+      font-size: 20px;
+   }
+}
+

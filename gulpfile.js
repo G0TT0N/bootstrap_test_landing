@@ -62,7 +62,6 @@ gulp.task('images', function () {
           quality: 'medium'
         }),
         imagemin.optipng({optimizationLevel: 3}),
-        pngquant({quality: '65-70', speed: 5})
       ]))
       .pipe(gulp.dest('build/img'));
 });
